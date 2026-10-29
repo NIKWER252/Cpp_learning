@@ -29,5 +29,5 @@ int main()
     pass_by_pointer(&a);
     cout << "Сейчас в функции main переменная a = " << a << endl;
     pass_by_reference (a); cout << "Сейчас в функции main переменная a = " << a << endl;
-    return 0;
+    return 1;
 }
